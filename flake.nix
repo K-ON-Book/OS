@@ -1,5 +1,5 @@
 {
-  description = "My journey of learning OS";
+  description = "My journey of learning SE";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
@@ -15,7 +15,7 @@
           ];
           shellHook = ''
             cd tutorial/
-            export PS1="\e[0;32m(OS)\$ \e[m" 
+            export PS1="\e[0;32m(SE)\$ \e[m" 
           '';
         };
       };
